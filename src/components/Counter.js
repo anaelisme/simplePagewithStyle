@@ -15,6 +15,7 @@ const Counter = () => {
       <button onClick={() => setCount((prev) => prev + 1)}>increment</button>
       <spacer> </spacer>
       <button onClick={() => setCount(0)}>reset</button>
+      <hr />
     </div>
   );
 };
